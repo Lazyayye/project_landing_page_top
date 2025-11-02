@@ -1,0 +1,15 @@
+.header {
+    margin: 0;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.left-item, right-item {
+    
+}
