@@ -2,22 +2,20 @@
     display: flex;
     flex-direction: column;
     background: #1f2937;
-    border: 1px solid;
+    padding: 20px 150px 20px 150px;
 }
 
 .header {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    border: 1px solid;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    gap: 5px;
-    border: 1px solid; 
+    gap: 5px; 
 }
 
 .logo-link {
@@ -26,16 +24,29 @@ ul {
 
 .hero-container-present {
     display: flex;
-    border: 1px solid;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+    padding: 25px 0px;
 }
 
-.hero-container-present-text {
-    border: 1px solid;
+.hero-container-present-text h1 {
+    display: flex;
+    font-size: 48px;
+    color: #f9faf8;
 }
 
-.placeholder {
-    border: 1px solid;
+.hero-container-present-text p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
+
+.signup {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 4px;
+}
+
 
 
 
