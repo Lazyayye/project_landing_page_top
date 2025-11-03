@@ -83,6 +83,57 @@ span {
     font-weight: 600;
 }
 
+.call {
+    padding: 75px 150px;
+}
+
+.call-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.call-text {
+    color: white;
+    padding-left: 75px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+
+
+.top-text {
+    margin-bottom: 1px;
+    font-weight: 600;
+}
+
+.bot-text {
+    margin-top: 1px;
+    font-size: small;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 15px;
+}
+
+.foot-signup {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 16px;
+    margin: 46px;
+    border: 1px solid;
+    
+}
+
+a {
+    color: #f9faf8;
+    text-decoration: none;
+}
 
 
 
