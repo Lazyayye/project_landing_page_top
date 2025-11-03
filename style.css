@@ -47,6 +47,27 @@ ul {
     border-radius: 4px;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 20px 150px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.info-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
 
 
 
