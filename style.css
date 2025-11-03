@@ -1,15 +1,44 @@
-.header {
-    margin: 0;
-    padding: 12px;
+.hero-container {
     display: flex;
+    flex-direction: column;
+    background: #1f2937;
+    border: 1px solid;
+}
+
+.header {
+    display: flex;
+    align-items: flex-start;
     justify-content: space-between;
-    width: 100%;
+    border: 1px solid;
 }
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+    border: 1px solid; 
 }
 
-.left-item, right-item {
-    
+.logo-link {
+    display: flex;
 }
+
+.hero-container-present {
+    display: flex;
+    border: 1px solid;
+}
+
+.hero-container-present-text {
+    border: 1px solid;
+}
+
+.placeholder {
+    border: 1px solid;
+}
+
+
+
+
+
+
